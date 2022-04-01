@@ -2,4 +2,6 @@
     <string name="app_name">元天气</string>
     <string name="bg_image">背景图片</string>
     <string name="hint">输入位置</string>
+    <string name="forecast">预报</string>
+    <string name="life_index">生活指数</string>
 </resources>
