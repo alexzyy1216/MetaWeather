@@ -52,11 +52,11 @@ object Repository {
 
     @Suppress("SameParameterValue")
     private fun <T> fire(context: CoroutineContext, block: suspend () -> Result<T>) =
-        liveData<Result<T>>(context) {
+        liveData(context) {
             val result = try {
                 block()
             } catch (e: Exception) {
-                Result.failure<T>(e)
+                Result.failure(e)
             }
             emit(result)
         }

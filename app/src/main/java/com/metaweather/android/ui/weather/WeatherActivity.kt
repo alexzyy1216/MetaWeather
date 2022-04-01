@@ -28,7 +28,6 @@ class WeatherActivity : AppCompatActivity() {
 
     val viewModel by lazy { ViewModelProvider(this).get(WeatherViewModel::class.java) }
 
-    @Suppress("DEPRECATION")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val decorView = window.decorView

@@ -4,4 +4,10 @@
     <string name="hint">输入位置</string>
     <string name="forecast">预报</string>
     <string name="life_index">生活指数</string>
+    <string name="coldrisk">感冒</string>
+    <string name="dressing">穿衣</string>
+    <string name="ultraviolet">实时紫外线</string>
+    <string name="carwashing">洗车</string>
+    <string name="separator">|</string>
+    <string name="skyIcon">天气图标</string>
 </resources>
