@@ -8,7 +8,7 @@ class MetaWeatherApplication : Application() {
 
     companion object {
 
-        const val TOKEN = "CTs7h9QeGD5tFTfu"
+        const val TOKEN = "A9nD8rO0iD5yY3dS2"
 
         @SuppressLint("StaticFieldLeak")
         lateinit var context: Context
